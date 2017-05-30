@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:descendantFocusability="blocksDescendants"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/iv_attraction_img"
+        android:src="@drawable/wuhan_huanghelou"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/attractions_list_item_height" />
+
+    <LinearLayout
+
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/attractions_list_item_height">
+
+        <TextView
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/tv_attraction_name"
+            android:text="武汉"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/tv_attraction_detail"
+            android:text="wuhan d e dili weishzi "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

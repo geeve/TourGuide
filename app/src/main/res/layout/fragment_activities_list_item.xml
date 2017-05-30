@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="118dp">
+
+    <ImageView
+        android:id="@+id/activities_item_img"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/wuhan_dxsxqj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginLeft="@dimen/activities_list_left"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_weight="2.5"
+            android:id="@+id/activites_item_title"
+            android:textSize="@dimen/activities_list_size"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_weight="1.2"
+            android:id="@+id/activites_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_weight="1.2"
+            android:id="@+id/activites_item_price"
+            android:layout_marginTop="@dimen/activities_list_price_top"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/activites_item_address"
+            android:layout_marginTop="@dimen/activities_list_price_top"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
